@@ -22,7 +22,14 @@ body {
 .grid {
     width: 512px;
     height: 512px;
+    border: 8px solid rgb(15, 118, 110);
     background-color: rgb(31, 41, 55);
+    display: grid;
+}
+
+.gridElement {
+    background-color: rgb(209, 213, 219);
+    border: 1px solid black;
 }
 
 .footer {
@@ -38,6 +45,13 @@ button {
     padding: 9px 18px;
 }
 
+input[type="color"] {
+    background-color: rgb(15, 118, 110);
+    border-radius: 6px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 0px 4px;
+}
+
 .slider {
     -webkit-appearance: none;
     appearance: none;
@@ -50,18 +64,17 @@ button {
     border-radius: 16px;
 
     overflow: hidden;
-    border-radius: 16px;
 }
 
 .slider::-webkit-slider-runnable-track {
     height: 15px;
-    background: rgb(209, 213, 219);
+    background-color: rgb(209, 213, 219);
     border-radius: 16px;
 }
 
 .slider::-moz-range-track {
     height: 15px;
-    background: rgb(209, 213, 219);
+    background-color: rgb(209, 213, 219);
     border-radius: 16px;
 }
 
