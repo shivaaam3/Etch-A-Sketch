@@ -1,0 +1,84 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: rgb(209, 213, 219);
+    background-color: rgb(17, 24, 39);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 98vh;
+    gap: 64px;
+}
+
+.container {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+.grid {
+    width: 512px;
+    height: 512px;
+    background-color: rgb(31, 41, 55);
+}
+
+.footer {
+    text-align: center;
+}
+
+button {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    background-color: rgb(15, 118, 110);
+    border-radius: 6px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 9px 18px;
+}
+
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 50%;
+    cursor: pointer;
+    outline: none;
+
+    height: 15px;
+    background: #ccc;
+    border-radius: 16px;
+
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.slider::-webkit-slider-runnable-track {
+    height: 15px;
+    background: rgb(209, 213, 219);
+    border-radius: 16px;
+}
+
+.slider::-moz-range-track {
+    height: 15px;
+    background: rgb(209, 213, 219);
+    border-radius: 16px;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 15px;
+    width: 15px;
+    background-color: rgb(15, 118, 110);
+    border-radius: 50%;
+    box-shadow: -407px 0 0 400px rgb(31, 41, 55);
+}
+
+.slider::-moz-range-thumb {
+    height: 15px;
+    width: 15px;
+    background-color: rgb(15, 118, 110);
+    border-radius: 50%;
+    box-shadow: -407px 0 0 400px rgb(31, 41, 55);
+}
